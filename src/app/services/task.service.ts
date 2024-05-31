@@ -10,7 +10,7 @@ export class TaskService {
 
   constructor() { }
 
-  getTask():Observable<Task[]> {
+  getTasks():Observable<Task[]> {
    const tasks = of(TASKS);
    return tasks
   }
